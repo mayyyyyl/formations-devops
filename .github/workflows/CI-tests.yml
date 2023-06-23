@@ -22,7 +22,7 @@ jobs:
         node-version: 16
 
     - name: Install dependencies
-      run: npm init -y
+      run: npm install should --save-dev
     
     - name: Install mocha
       run: npm install -g mocha
